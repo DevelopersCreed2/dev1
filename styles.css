@@ -1,0 +1,160 @@
+/* .{
+  margin: 0;
+  padding: 0;
+} */
+#title{
+  text-align: center;
+  margin: 5%;
+}
+.disclaimer{
+  background-color: #ff7675;
+  color: #81ecec;
+}
+
+
+
+
+body{
+  background-color:#121212;
+  color: white;
+}
+.navbar{
+  background-color: #121212;
+  padding-bottom: 7%;
+}
+.nav-link{
+  margin-right: 10px;
+}
+.navbar-brand{
+  font-size: 2rem;
+  padding-left: 20px;
+}
+
+.logo-text{
+  text-align: center;
+  color:white;
+  margin-top: 5% ;
+padding: 0% 5% 0% 0%;
+}
+
+h2{
+  font-size: 200%;
+font-family: 'Playfair Display', serif;
+}
+
+h1{
+  text-align: center;
+font-size:250%;
+line-height: 1.5;
+font-family: 'Montserrat', sans-serif;
+}
+h3{
+  text-align: center;
+font-size:150%;
+line-height: 1.5;
+font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-size: 30px;
+}
+.image-class{
+  display: inline-block;
+  margin-right: 0%;
+  color: #dfe6e9;
+
+}
+
+/* carousel */
+
+#testimonials{
+  margin: 10% 10%;
+  padding: 7% 15%;
+  font-family: 'Playfair Display', serif;;
+  text-align: center;
+  background-color:#cddc39;
+  color: #182C61;
+
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+
+  padding:5% 15%;
+  text-align: center;
+}
+.carousel-control-prev{
+right: 7%;margin-right: 15%;
+
+}
+
+.sr-only{
+  padding-top: 5%;
+}
+
+.testimonial-text{
+  text-align: center;
+}
+
+#anim{
+  text-align: center;
+  display: grid;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+/* animations */
+.anim-class1{
+  padding-left: 5%;
+  margin: 0% 0%;
+  display:block;
+}
+
+.anim-class{
+  text-align: center;
+  display:inline-block;
+  color:#32ff7e;
+  margin-top: 10% ;
+  padding: 0% 5% 0% 0%;
+}
+.anim-text{
+  color:#81ecec;
+}
+
+br{
+  color: white;
+}
+  /* Contact */
+#Contact{
+  background-color: #95a5a6;
+text-align: center;
+}
+.btn{
+  margin: 1% 1%;
+}
+
+  hr{
+    border:dotted #EAF6F6 6PX;
+    border-bottom: none;
+    width: 4%;
+  }
+
+.card{
+  margin:5% 25%;
+  color: black;
+  background-color: skyblue;
+}
+
+@media only screen and(max-width:620px){
+  body,h1,h2,h3{
+    width:100%;
+  }
+  @media only screen and (max-width: 600px) {
+    body,h1,h2,h3{
+      width:100%;
+    }
+}
